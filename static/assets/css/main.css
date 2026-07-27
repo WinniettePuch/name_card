@@ -858,3 +858,15 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+		#main .avatar {
+    		width: clamp(280px, 45vw, 500px);
+    		margin: 0 auto 1.5em;
+			font-weight:bold;
+		}
+
+		#main .avatar img {
+	    	width: 100%;
+    		height: auto;
+    		display: block;
+		}
